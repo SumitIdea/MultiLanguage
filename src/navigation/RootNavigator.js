@@ -26,7 +26,7 @@ export default function RootNavigator() {
               iconName = focused ? 'md-settings' : 'md-settings-outline';
             }
             else if (route.name === 'Profile') {
-              iconName = focused ? 'md-cog' : 'md-cog-outline';
+              iconName = focused ? 'md-information' : 'md-information-outline';
             }
 
             return <Ionicons name={iconName} size={size} color={color} />;
